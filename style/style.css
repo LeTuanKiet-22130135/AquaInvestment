@@ -1,0 +1,65 @@
+body{
+    background-image: url(../images/background.png);
+    background-size: auto;
+    width: auto;
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header{
+    height: 85px;
+    width: 100%;
+}
+
+#aqua{
+    float: left;
+    margin-left: 10px;
+    font-size: 1.25rem;
+}
+
+.buttongroup{
+    float: right;
+    margin-top: 16px;
+}
+
+.body{
+    position: absolute;
+    top: 85px;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#download{
+    display: flex;
+}
+
+#downloadbutton{
+    background-color: black;
+    border: none;
+    color: white;
+    margin-right: 1rem;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#button{
+    background-color: #00BDDA;
+    border: none;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
